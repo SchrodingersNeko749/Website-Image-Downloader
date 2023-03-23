@@ -29,7 +29,7 @@ if path_name and url:
              soup = BeautifulSoup(response.text, "html.parser")
              img_tags = soup.find_all("img")
 
-             #make folder and download all images to its images 
+             #make folder and download all images in it
              try:
                  os.mkdir(path_name)
              except FileExistsError:
