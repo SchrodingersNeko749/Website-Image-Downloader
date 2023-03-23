@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 import re
 
 def print_options():
-    print("usage: imgd -p|--path <path> -u|--url <url>")
+    print("\nUsage: imgd [-p,--path <path>] [-u,--url <url>] \nExample \nimgd -p /path/ -u https://mydomain.com/directory/")
 
 
 # grab the input  
